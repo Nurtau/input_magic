@@ -6,12 +6,12 @@
 
 input {
     width: 250px;
-    height: 20px;
-    margin-top: 5px;
+    height: 30px;
+    margin-top: 10px;
     border: none;
     font-size: 20px;
     text-align: center;
-    box-shadow: black 5px 5px 20px;
+    box-shadow: black 5px 5px 15px;
 }
 
 body {
@@ -30,7 +30,7 @@ body {
     width: 250px;
     margin: 20px;
     background-color: rgb(56, 161, 226, 0.5);
-    box-shadow: black 5px 5px 20px;
+    box-shadow: black 5px 5px 15px;
 }
 
 .item:nth-child(even) {
