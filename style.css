@@ -28,11 +28,7 @@ body {
     justify-content: center;
     height: 70px;
     width: 250px;
-    margin: 20px;
+    margin-top: 20px;
     background-color: rgb(56, 161, 226, 0.5);
     box-shadow: black 5px 5px 15px;
-}
-
-.item:nth-child(even) {
-    background-color: rgba(34, 95, 133, 0.5);
 }
