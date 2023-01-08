@@ -88,7 +88,7 @@ class VirtualListRenderer {
 
   setup() {
     this.onWindowScroll();
-    window.addEventListener("scroll", this.onWindowScroll);
+    window.addEventListener("scroll", this.onWindowScroll, { passive: true });
   }
 
   destroy() {
