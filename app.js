@@ -1,9 +1,17 @@
 const input = document.getElementById("input_field");
 const slots = document.querySelector(".slots");
 
-input.addEventListener("input", addItems);
+window.addEventListener("load", registerServiceWorker);
+
+function registerServiceWorker() {
+  if (!window.navigator.serviceWorker) return;
+
+  window.navigator.serviceWorker.register("/sw.js");
+}
 
 let renderer;
+
+input.addEventListener("input", addItems);
 
 function addItems(event) {
   event.preventDefault();
